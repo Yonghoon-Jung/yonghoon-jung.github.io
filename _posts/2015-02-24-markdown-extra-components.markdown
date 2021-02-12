@@ -1,7 +1,7 @@
 ---
-title: "Markdown Extra Components"
+title: "첫 게시글입니다."
 layout: post
-date: 2016-02-24 22:48
+date: 2021-02-12 23:12
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
