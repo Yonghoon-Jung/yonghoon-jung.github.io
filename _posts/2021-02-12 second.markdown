@@ -1,5 +1,5 @@
 ---
-title: "첫 게시글입니다."
+title: "두번쨰 게시글입니다."
 layout: post
 date: 2021-02-12 23:12
 image: /assets/images/markdown.jpg
@@ -9,7 +9,7 @@ tag:
 - components
 - extra
 category: blog
-author: jamesfoster
+author: Yonghoon-Jung
 description: Markdown summary with different options
 ---
 
