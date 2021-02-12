@@ -1,7 +1,7 @@
 ---
-title: "Markdown Common Elements"
+title: "세번째 게시글입니다."
 layout: post
-date: 2016-02-24 22:44
+date: 2021-02-12 23:44
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
@@ -9,7 +9,7 @@ tag:
 - elements
 star: true
 category: blog
-author: johndoe
+author: Yonghoon Jung
 description: Markdown summary with different options
 ---
 
