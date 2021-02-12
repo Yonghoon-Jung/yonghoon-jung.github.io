@@ -1,5 +1,5 @@
 ---
-title: "두번쨰 게시글입니다."
+title: "second."
 layout: post
 date: 2021-02-12 23:12
 image: /assets/images/markdown.jpg
