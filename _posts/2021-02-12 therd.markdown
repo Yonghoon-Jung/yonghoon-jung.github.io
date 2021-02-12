@@ -1,5 +1,5 @@
 ---
-title: "세번째 게시글입니다."
+title: "three."
 layout: post
 date: 2021-02-12 23:44
 image: /assets/images/markdown.jpg
