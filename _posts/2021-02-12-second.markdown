@@ -16,8 +16,8 @@ description: Markdown summary with different options
 ---
 
 ## Summary:
-
-You can pick as item to see how to apply in markdown.
+매개 변수의 개념과 가감승제, 함수, inout을 알기 쉽게 설명합니다.
+Explain the concepts of parameters, additive, function, and in-out in an easy-to-understand way.
 
 #### Especial Elements
 - [Evidence](#evidence)
