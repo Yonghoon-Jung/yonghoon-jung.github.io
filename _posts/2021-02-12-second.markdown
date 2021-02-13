@@ -22,7 +22,7 @@ Explain the concepts of parameters, additive, function, and in-out in an easy-to
 #### Table of Contents
 - [Parameters](#parameters)
 FourFundamentalRulesOfArithmetics
-- [FourFundamentaRulesOfArithmetics](#fourfundamentalrulesofarithmetics)
+- [Four-Fundamental-Rules-Of-Arithmetics](#four-fundamental-rules-of-arithmetics)
 - [Star](#star)
 - [Especial Breaker](#especial-breaker)
 - [Spoiler](#spoiler)
@@ -91,7 +91,7 @@ print(add(100, with:200))
     </div>
 </div>
 
-## FourFundamentalRulesOfArithmetics
+## Four-Fundamental-Rules-Of-Arithmetics
 
 **Image** on the left and **Text** on the right:
 
@@ -100,7 +100,7 @@ func sss(a: Int, b: Int) -> (sum: Int,sub: Int, mul: Int, div: String, rem: Int)
     let sum = a+b
     let sub = a-b
     let mul = a\*b
-    let div = String(format: "%.6", Double(a)/Doubleb))
+    let div = String(format: "%.6", Double(a)/Double(b))
     let rem = a%b
     return (sum, sub, mul, div, rem)
 }
@@ -118,7 +118,7 @@ print(result.rem)
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
+        <figcaption class="caption">Photo by Yonghoon Jung</figcaption>
     </div>
 
     <div class="toright">
