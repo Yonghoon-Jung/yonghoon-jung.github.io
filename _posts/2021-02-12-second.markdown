@@ -78,7 +78,7 @@ print(add(100, with:200))
 
 {% endhighlight %}
 
-<div class="parameters">
+<div class="side-by-side">
     <div class="toleft">
         <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
         <figcaption class="caption">Photo by Yonghoon Jung</figcaption>
