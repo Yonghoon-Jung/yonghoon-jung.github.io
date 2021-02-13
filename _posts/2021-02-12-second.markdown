@@ -1,5 +1,5 @@
 ---
-title: "Swift 기초 문법"
+title: "Swift 기초 문법 1장"
 layout: post
 date: 2021-02-13 19:43
 image: /assets/images/markdown.jpg
@@ -20,12 +20,11 @@ description: Markdown summary with different options
 Explain the concepts of parameters, additive, function, and in-out in an easy-to-understand way.
 
 #### Table of Contents
-- [Parameters](#parameters)
+- [Parameters](#parameters) 매개변수
 FourFundamentalRulesOfArithmetics
-- [Four-Fundamental-Rules-Of-Arithmetics](#four-fundamental-rules-of-arithmetics)
-- [Star](#star)
-- [Especial Breaker](#especial-breaker)
-- [Spoiler](#spoiler)
+- [Four-Fundamental-Rules-Of-Arithmetics](#four-fundamental-rules-of-arithmetics) 가감승제
+- [Method](#method) 함수
+- [Inout](#inout) 인아웃
 
 #### External Elements
 - [Gist](#gist)
@@ -112,6 +111,13 @@ print(result.sub)
 print(result.mul)
 print(result.div)
 print(result.rem)
+
+----- RESULT -----
+52
+8
+660
+1.363636
+8
 
 {% endhighlight %}
 
