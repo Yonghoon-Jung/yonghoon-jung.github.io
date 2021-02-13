@@ -21,7 +21,6 @@ Explain the concepts of parameters, additive, function, and in-out in an easy-to
 
 #### Table of Contents
 - [Parameters](#parameters) 매개변수
-FourFundamentalRulesOfArithmetics
 - [Four-Fundamental-Rules-Of-Arithmetics](#four-fundamental-rules-of-arithmetics) 가감승제
 - [Method](#method) 함수
 - [Inout](#inout) 인아웃
@@ -79,7 +78,7 @@ print(add(100, with:200))
 
 {% endhighlight %}
 
-<div class="side-by-side">
+<div class="parameters">
     <div class="toleft">
         <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
         <figcaption class="caption">Photo by Yonghoon Jung</figcaption>
