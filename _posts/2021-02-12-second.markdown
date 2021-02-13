@@ -5,11 +5,13 @@ date: 2021-02-13 19:43
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- markdown
-- components
-- extra
+- parameter
+- 매개변수
+- 가감승제
+- method
+- inout
 category: blog
-author: jamesfoster
+author: Yonghoon-Jung
 description: Markdown summary with different options
 ---
 
