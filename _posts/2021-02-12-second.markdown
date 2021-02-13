@@ -20,7 +20,7 @@ description: Markdown summary with different options
 Explain the concepts of parameters, additive, function, and in-out in an easy-to-understand way.
 
 #### Table of Contents
-- [Parameters](#Parameters)
+- [Parameters](#parameters)
 - [Side-by-Side](#side-by-side)
 - [Star](#star)
 - [Especial Breaker](#especial-breaker)
