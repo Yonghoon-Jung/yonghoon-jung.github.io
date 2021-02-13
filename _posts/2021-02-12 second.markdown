@@ -1,5 +1,5 @@
 ---
-title: "second."
+title: "Markdown Extra Components"
 layout: post
 date: 2021-02-12 23:12
 image: /assets/images/markdown.jpg
@@ -9,7 +9,7 @@ tag:
 - components
 - extra
 category: blog
-author: johndoe
+author: jamesfoster
 description: Markdown summary with different options
 ---
 
