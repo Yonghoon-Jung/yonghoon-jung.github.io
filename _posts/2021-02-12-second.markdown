@@ -54,16 +54,29 @@ You can try the evidence!
 func add(jyh: Int, yhj: Int) -> Int {
     return(jyh+yhj)
 }
-<div class="side-by-side">
-    <div class="toleft">
-        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
-    </div> "도레미파솔라"
+print(add(jyh:100, yhj:200))
 
-    <div class="toright">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-</div>
+func add(first jyh: Int, second yhj: Int) -> Int {
+    return(jyh+yhj)
+}
+print(add(first:100, second200))
+
+func add(_ jyh: Int, _ yhj: Int) -> Int { // 이 방법은 잘 안씁니다.
+    return(jyh+yhj)
+}
+print(add(100, 200))
+
+func add(_ jyh: Int, with yhj: Int) -> Int {
+    return(jyh+yhj)
+}
+print(add(100, with:200))
+
+----- RESULT -----
+300
+300
+300
+300
+
 {% endhighlight %}
 
 <div class="side-by-side">
