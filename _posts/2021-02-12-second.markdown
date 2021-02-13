@@ -16,7 +16,7 @@ description: Markdown summary with different options
 ---
 
 ## Summary:
-매개 변수의 개념과 가감승제, 함수, inout을 알기 쉽게 설명합니다.
+매개 변수의 개념과 가감승제, 함수, inout을 알기 쉽게 설명합니다.<br>
 Explain the concepts of parameters, additive, function, and in-out in an easy-to-understand way.
 
 #### Table of Contents
