@@ -2,7 +2,7 @@
 title: "Swift 기초 문법"
 layout: post
 date: 2021-02-13 19:43
-image: /assets/images/swift.jpg
+image: https://yonghoon-jung.github.io/assets/images/swift.jpg
 headerImage: true
 tag:
 - Swift
