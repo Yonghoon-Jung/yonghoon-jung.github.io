@@ -17,8 +17,8 @@ description: Markdown summary with different options
 ---
 
 ## Summary:
-매개 변수의 개념과 가감승제, 함수, inout을 알기 쉽게 설명합니다.<br>
-Explain the concepts of parameters, additive, function, and in-out in an easy-to-understand way.
+Swift언어의 기초 문법을 정리해 놓음으로 문법에 대한 접근이 용이하도록 작성한 게시글입니다.<br>
+This is a posting that summarizes the basic grammar of the Swift language to facilitate access to grammar.
 
 #### Table of Contents
 - [Parameters](#parameters) 매개변수
@@ -95,7 +95,8 @@ print(add(100, with:200))
 
 ## Four-Fundamental-Rules-Of-Arithmetics
 
-**Image** on the left and **Text** on the right:
+가감승제 코드입니다.<br>
+덧셈, 뺄셈, 곱셈, 나눗셈, 나머지를 구하는 예제.
 
 {% highlight html %}
 func sss(a: Int, b: Int) -> (sum: Int,sub: Int, mul: Int, div: String, rem: Int) {
