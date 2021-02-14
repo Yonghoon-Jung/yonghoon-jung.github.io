@@ -1,5 +1,5 @@
 ---
-title: "Swift 기초 문법 1장"
+title: "Swift 기초 문법"
 layout: post
 date: 2021-02-13 19:43
 image: /assets/images/markdown.jpg
@@ -51,7 +51,7 @@ You can try the evidence!
 매개변수 코드입니다.
 
 {% highlight html %}
-func add(jyh: Int, yhj: Int) -> Int {   // 외부 매개변수명 생략하면 내부 매개변수명이 외부 매개변수명까지 겸함
+func add(jyh: Int, yhj: Int) -> Int {               // 외부 매개변수명 생략하면 내부 매개변수명이 외부 매개변수명까지 겸함
     return(jyh+yhj)
 }
 print(add(jyh:100, yhj:200))
@@ -61,13 +61,13 @@ func add(first jyh: Int, second yhj: Int) -> Int {  // 외부 매개변수명(fi
 }
 print(add(first:100, second200))
 
-func add(_ jyh: Int, _ yhj: Int) -> Int {   // 외부 매개변수명 생략(\_) 한다는 의미, 다른 언어처럼 호출 가능하지만 추천 X
+func add(_ jyh: Int, _ yhj: Int) -> Int {           // 외부 매개변수명 생략(\_) 한다는 의미, 다른 언어처럼 호출 가능하지만 추천 X
     return(jyh+yhj)
 }
 print(add(100, 200))
 
-func add(_ jyh: Int, with yhj: Int) -> Int {    // 첫번째 외부 매개변수명만(\_) 생략하는 경우가 많음, Objective-C언어의 호출 방식이 이러함
-                                                // 두번째 외부 매개변수부터는(with) 외부 매개변수 사용, 제일 많이 사용하는 방법
+func add(_ jyh: Int, with yhj: Int) -> Int {        // 첫번째 외부 매개변수명만(\_) 생략하는 경우가 많음, Objective-C언어의 호출 방식이 이러함
+                                                    // 두번째 외부 매개변수부터는(with) 외부 매개변수 사용, 제일 많이 사용하는 방법
     return(jyh+yhj)
 }
 print(add(100, with:200))
