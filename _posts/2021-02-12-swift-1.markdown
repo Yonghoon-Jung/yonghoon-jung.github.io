@@ -185,7 +185,7 @@ Like the [Medium](https://medium.com/) component.
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
+        <img class="image" src="yonghoon-jung.github.io/assets/images/1-4-inout.PNG" alt="Alt Text">
         <figcaption class="caption">Photo by John Doe</figcaption>
     </div>
 
