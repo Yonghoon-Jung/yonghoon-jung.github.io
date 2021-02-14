@@ -37,7 +37,14 @@ This is a posting that summarizes the basic grammar of the Swift language to fac
 
 ## Grammer
 
-#### Swift 문법!
+#### Table of Contents
+- [Swift](#swift) 문법
+- [Int](#int) 정수형 데이터 타입
+- [Double](#double) 부동소수점 데이터 타입
+- [Bool](#bool) 부울 데이터 타입
+- [Inout](#inout) 인아웃
+
+#### Swift
 
 <span class="grammer">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
 
@@ -55,8 +62,9 @@ let pi = 3.141592       // Double형으로 추론됩니다.
 let anotherPi = 3 + 0.14159 // Double형으로 추론됩니다.
 {% endhighlight %}
 
-#### 정수 데이터 타입 : Int
+#### Int
 {% highlight html %}
+정수 데이터 타입
 - 정수(수점이 없는 수)를 저장하는 데 사용
   └ 양수, 음수, 영(0) 값을 담을 수 있는 부호있는(signed) 정수
   └ 영(0)과 양수만 담을 수 있는 부호 없는(unsigned) 정수
@@ -74,8 +82,9 @@ let anotherPi = 3 + 0.14159 // Double형으로 추론됩니다.
 {% endhighlight %}
 
 
-#### 부동 소수점 데이터 타입 : Double
+#### Double
 {% highlight html %}
+부동 소수점 데이터 타입
 - 소수점이 있는 숫자
   └ 4353.1223
 - Float와 Double 타입을 제공
@@ -88,8 +97,9 @@ let anotherPi = 3 + 0.14159 // Double형으로 추론됩니다.
 {% endhighlight %}
 
 
-#### 부울 데이터 타입 : Bool
+#### Bool
 {% highlight html %}
+부울 데이터 타입
 - 참 또는 거짓(1 또는 0) 조건을 처리할 데이터 타입
 - Boolean 데이터 타입을 처리하기 위하여 두 개의 불리언 상수값(true/false) 사용
   └ var orangesAreOrange : Bool
