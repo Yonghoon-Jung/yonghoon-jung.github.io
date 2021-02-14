@@ -21,6 +21,7 @@ Swift언어의 기초 문법을 정리해 놓음으로 문법에 대한 접근�
 This is a posting that summarizes the basic grammar of the Swift language to facilitate access to grammar.
 
 #### Table of Contents
+- [Grammer](#grammer) 문법
 - [Parameters](#parameters) 매개변수
 - [Four-Fundamental-Rules-Of-Arithmetics](#four-fundamental-rules-of-arithmetics) 가감승제
 - [Method](#method) 함수
@@ -34,14 +35,14 @@ This is a posting that summarizes the basic grammar of the Swift language to fac
 
 ---
 
-## Evidence
+## Grammer
 
 You can try the evidence!
 
-<span class="evidence">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
+<span class="grammer">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
 
 {% highlight html %}
-<span class="evidence">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
+
 {% endhighlight %}
 
 ---
