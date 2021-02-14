@@ -1,15 +1,12 @@
 ---
-title: "Markdown Extra Components"
+title: "마크다운 사용 양식"
 layout: post
-date: 2016-02-24 22:48
+date: 2021-02-14 18:04
 image: /assets/images/markdown.jpg
 headerImage: false
-tag:
-- markdown
-- components
-- extra
+tag: null
 category: blog
-author: jamesfoster
+author: Yonghoon Jung
 description: Markdown summary with different options
 ---
 
