@@ -82,7 +82,7 @@ print(add(100, with:200))
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="https://yonghoon-jung.github.io/assets/images/1-1-parameter.PNG" alt="Alt Text">
-        <figcaption class="caption">Photo by Yonghoon Jung</figcaption>
+        <figcaption class="caption">Parameter Code</figcaption>
     </div>
 
     <div class="toright">
@@ -126,7 +126,7 @@ print(result.rem)
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="yonghoon-jung.github.io/assets/images/1-2-gagam.PNG" alt="Alt Text">
-        <figcaption class="caption">Photo by Yonghoon Jung</figcaption>
+        <figcaption class="caption">Four-Fundamental-Rules-Of-Arithmetics Code</figcaption>
     </div>
 
     <div class="toright">
@@ -134,7 +134,7 @@ print(result.rem)
     </div>
 </div>
 
-## Side-by-side
+## Method
 
 Like the [Medium](https://medium.com/) component.
 
@@ -145,7 +145,7 @@ Like the [Medium](https://medium.com/) component.
     <div class="toleft">
         <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
         <figcaption class="caption">Photo by John Doe</figcaption>
-    </div> "도레미파솔라"
+    </div>
 
     <div class="toright">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -156,7 +156,7 @@ Like the [Medium](https://medium.com/) component.
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="yonghoon-jung.github.io/assets/images/1-3-method.PNG" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
+        <figcaption class="caption">Method Code</figcaption>
     </div>
 
     <div class="toright">
@@ -164,7 +164,7 @@ Like the [Medium](https://medium.com/) component.
     </div>
 </div>
 
-## Side-by-side
+## Inout
 
 Like the [Medium](https://medium.com/) component.
 
@@ -174,8 +174,8 @@ Like the [Medium](https://medium.com/) component.
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="yonghoon-jung.github.io/assets/images/1-4-inout.PNG" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
-    </div> "도레미파솔라"
+        <figcaption class="caption">Inout Code</figcaption>
+    </div>
 
     <div class="toright">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
