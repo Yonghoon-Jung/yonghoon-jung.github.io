@@ -140,15 +140,39 @@ print(result.rem)
 
 ## Method
 
-Like the [Medium](https://medium.com/) component.
+기본적인 함수 코드입니다.
+임의의 개수의 정수 값의 합을 출력하는 함수입니다.
 
 **Image** on the left and **Text** on the right:
 
 {% highlight html %}
+func add(numbers: Int...) {
+    var i = 0
+    for int in numbers {
+        i = i + int
+    }
+    print(i)
+}
+
+add(numbers: 1,2,3,4,5)
+add(numbers: 1,1,1,1,1)
+add(numbers: 2,2,2,2,2)
+add(numbers: 5,5,5,5,5)
+add(numbers: 1,1,2,2,3)
+
+----- RESULT -----
+15
+5
+10
+25
+9
+
+{% endhighlight %}
+
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
+        <img class="image" src="yonghoon-jung.github.io/assets/images/1-3-method.PNG" alt="Alt Text">
+        <figcaption class="caption">Method Code</figcaption>
     </div>
 
     <div class="toright">
@@ -165,41 +189,33 @@ Like the [Medium](https://medium.com/) component.
         </p>
     </div>
 </div>
-{% endhighlight %}
-
-<div class="side-by-side">
-    <div class="toleft">
-        <img class="image" src="yonghoon-jung.github.io/assets/images/1-3-method.PNG" alt="Alt Text">
-        <figcaption class="caption">Method Code</figcaption>
-    </div>
-
-    <div class="toright">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-</div>
 
 ## Inout
 
-Like the [Medium](https://medium.com/) component.
+Swift는 기본적으로 call by value 입니다.<br>
+call by reference를 구현하려면 inout 매개변수를 사용하면 됩니다.
 
 **Image** on the left and **Text** on the right:
 
 {% highlight html %}
-<div class="side-by-side">
-    <div class="toleft">
-        <img class="image" src="yonghoon-jung.github.io/assets/images/1-4-inout.PNG" alt="Alt Text">
-        <figcaption class="caption">Inout Code</figcaption>
-    </div>
+var myValue = 10
+func doubleValue (value: inout Int) -> Int {
+    value += value
+    return(value)
+}
+print(myValue)
+print(doubleValue(value: $myValue))
+print(myValue)
 
-    <div class="toright">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-</div>
+----- RESULT -----
+10
+20
+20
 {% endhighlight %}
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="yonghoon-jung.github.io/assets/images/1-4-inout.PNG" alt="Alt Text">
+        <img class="image" src="yonghoon-jung.github.io/assets/images/1-4-inout.pNG" alt="Alt Text">
         <figcaption class="caption">Photo by John Doe</figcaption>
     </div>
 
