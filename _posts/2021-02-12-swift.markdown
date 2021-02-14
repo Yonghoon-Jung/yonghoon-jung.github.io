@@ -42,7 +42,18 @@ You can try the evidence!
 <span class="grammer">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
 
 {% highlight html %}
+- 데이터 타입 -
+var myNumber = 10 <br>
+// myNumber라는 이름의 변수를 생성했으며, 숫자 10을 할당합니다. <br>
+var myNumber: Int = 10 <br>
+// 위와 같이 초깃값이 존재하는 경우 컴파일러가 추론하므로 데이터 타입을 명시할 필요 없습니다. <br>
+종류 : Bool, Character, Int, Double, String, Void <br>
+※ 주의 x= 10 // 오류! '='옆에는 공백이 있어야합니다. <br><br>
 
+일반적으로 초깃값을 주지 않을 경우에만 자료형을 씁니다. <br>
+let meaningOfLife = 42  // Int형으로 타입 추론됩니다.
+let pi = 3.141592       // Double형으로 추론됩니다.
+let anotherPi = 3 + 0.14159 // Double형으로 추론됩니다.
 {% endhighlight %}
 
 ---
@@ -178,11 +189,11 @@ add(numbers: 1,1,2,2,3)
 
     <div class="toright">
         <p>
-        함수 정의부의 값을 매개변수라 부르고, 호출시의 값은 아규먼트라고 부릅니다.<br>
+        함수 정의부의 값을 매개변수라 부르고, 호출시의 값은 아규먼트라고 부릅니다.<br><br>
         func [함수명] ([매개변수 이름]: [매개변수 타입], [매개변수 이름]: [매개변수 타입],...) -> [반환값 타입] {<br>
             [함수 코드]<br>
-        }<br>
-        func - 함수라는 것을 스위프트 컴파일러에게 알려주는 키워드<br>
+        }<br><br>
+        [func] - 함수라는 것을 스위프트 컴파일러에게 알려주는 키워드<br>
         [함수명] - 함수에 할당되는 이름<br>
         [매개변수 이름] - 함수 코드 내에서 참조되는 매개변수의 이름<br>
         [매개변수 타입] - 함수에 전달되는 매개변수의 타입<br>
