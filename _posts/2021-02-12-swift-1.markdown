@@ -48,25 +48,26 @@ You can try the evidence!
 
 ## Parameters
 
-**Image** on the left and **Text** on the right:
+매개변수 코드입니다.
 
 {% highlight html %}
-func add(jyh: Int, yhj: Int) -> Int {
+func add(jyh: Int, yhj: Int) -> Int {   // 외부 매개변수명 생략하면 내부 매개변수명이 외부 매개변수명까지 겸함
     return(jyh+yhj)
 }
 print(add(jyh:100, yhj:200))
 
-func add(first jyh: Int, second yhj: Int) -> Int {
+func add(first jyh: Int, second yhj: Int) -> Int {  // 외부 매개변수명(first, second): 호출할 때 사용, 내부 매개변수명(jyh, yhj): 함수 내부에서 사용
     return(jyh+yhj)
 }
 print(add(first:100, second200))
 
-func add(_ jyh: Int, _ yhj: Int) -> Int { // 이 방법은 잘 안씁니다.
+func add(_ jyh: Int, _ yhj: Int) -> Int {   // 외부 매개변수명 생략(\_) 한다는 의미, 다른 언어처럼 호출 가능하지만 추천 X
     return(jyh+yhj)
 }
 print(add(100, 200))
 
-func add(_ jyh: Int, with yhj: Int) -> Int {
+func add(_ jyh: Int, with yhj: Int) -> Int {    // 첫번째 외부 매개변수명만(\_) 생략하는 경우가 많음, Objective-C언어의 호출 방식이 이러함
+                                                // 두번째 외부 매개변수부터는(with) 외부 매개변수 사용, 제일 많이 사용하는 방법
     return(jyh+yhj)
 }
 print(add(100, with:200))
@@ -87,8 +88,8 @@ print(add(100, with:200))
 
     <div class="toright">
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        함수 정의부의 값을 매개변수라 부르고, 호출시의 값은 아규먼트라고 부릅니다.
+        
     </div>
 </div>
 
@@ -148,7 +149,17 @@ Like the [Medium](https://medium.com/) component.
     </div>
 
     <div class="toright">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>
+        함수 정의부의 값을 매개변수라 부르고, 호출시의 값은 아규먼트라고 부릅니다.
+        func <함수명> (<매개변수 이름>: <매개변수 타입>, <매개변수 이름>: <매개변수 타입>,...) -> <반환값 타입> {
+            // 함수 코드
+        }
+        func - 함수라는 것을 스위프트 컴파일러에게 알려주는 키워드
+        <함수명> - 함수에 할당되는 이름
+        <매개변수 이름> - 함수 코드 내에서 참조되는 매개변수의 이름
+        <매개변수 타입> - 함수에 전달되는 매개변수의 타입
+        <반환값 타입> - 함수가 반환하는 결과에 대한 데이터 타입. 반환하지 않으면(Void) 반환값 타입(Void)과 ->는 생략가능
+        </p>
     </div>
 </div>
 {% endhighlight %}
