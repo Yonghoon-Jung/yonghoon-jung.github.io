@@ -81,7 +81,7 @@ print(add(100, with:200))
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="/images/1-1-parameter.png" alt="Alt Text">
+        <img class="image" src="https://yonghoon-jung.github.io/assets/images/1-1-parameter.PNG" alt="Alt Text">
         <figcaption class="caption">Photo by Yonghoon Jung</figcaption>
     </div>
 
