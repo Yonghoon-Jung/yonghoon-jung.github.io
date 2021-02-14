@@ -3,7 +3,7 @@ title: "Swift 기초 문법"
 layout: post
 date: 2021-02-13 19:43
 image: /assets/images/markdown.jpg
-headerImage: false
+headerImage: true
 tag:
 - swift
 - parameter
