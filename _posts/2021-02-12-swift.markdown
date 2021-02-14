@@ -42,7 +42,9 @@ This is a posting that summarizes the basic grammar of the Swift language to fac
 - [Int](#int) 정수형 데이터 타입
 - [Double](#double) 부동소수점 데이터 타입
 - [Bool](#bool) 부울 데이터 타입
-- [Inout](#inout) 인아웃
+- [Character](#character) 문자 데이터 타입
+- [String](#string) 문자열 데이터 타입
+- [EscapeSequence](#escapesequence) 특수 문자 / 이스케이프 시스
 
 #### Swift
 
@@ -135,8 +137,88 @@ let anotherPi = 3 + 0.14159 // Double형으로 추론됩니다.
    └ RESULT - John has 25 message. Message capacity remaining is 75
 {% endhighlight %}
 
+#### EscapeSequence
+{% highlight html %}
+특수 문자 / 이스케이프 
+
+
+{% endhighlight %}
 
 {% highlight html %}
+특수 문자 / 이스케이프 
+- 표준 문자 트뿐만 아니라 문자열에 개행, 탭, 또는 유니코드 값과 같은 항목을 지정할 수 있는 여러 특수 문자도 있습니다.
+- 이스케이프 시퀀스(Escape Sequence)
+- 특수 문자들은 역슬래시를 접두어로 하여 구별합니다.
+  └ var newLine = "\n" // newLine
+- 역슬래시로 시작되는 모든 문자는 특수 문자로 간주합니다.
+- 역슬래시 문자 자체
+  └ var backslash = "\\"
+- 일반적으로 많이 사용되는 특수 문자
+└ \n ― 개행
+└ \r ― 캐리지 리턴(carriage return)
+└ \t ― 수평 탭
+└ \\ ― 역슬래시
+└ \" ― 큰따옴표(문자열 선언부에 큰따옴표를 쓰고 싶을 경우에 사용됨)
+└ \' ― 작은따옴표(문자열 선언부에 작은따옴표를 쓰고 싶을 경우에 사용됨)
+└ \u{nn} ― nn 위치에 유니코드 문자를 표현하는 두 개의 16진수가 배치되는 1바이트 유니코드 스칼라
+└ \u{nnnn} ― nnnn 위치에 유니코드 문자를 표현하는 네 개의 16진수가 배치되는 2바이트 유니코드 스칼라
+└ \U{nnnnnnnn} ― nnnnnnnn 위치에 유니코드 문자를 표현하는 네 개의 16진수가 배치되는 4바이트 유니코드 스칼라
+{% endhighlight %}
+
+#### var
+{% highlight html %}
+변수
+- 기본적으로 변수(variable)는 프로그램에서 사용될 데이터를 저장하기 위한 메모리 공간
+- 변수에 할당된 값은 변경 가능
+  └ var myVariable = 10 // : Int형 생략
+  └ var x = 0.0, y = 0.0, z = 0.0
+{% endhighlight %}
+
+#### let
+{% highlight html %}
+상수
+
+
+{% endhighlight %}
+
+{% highlight html %}
+상수
+
+
+{% endhighlight %}
+
+{% highlight html %}
+상수
+
+
+{% endhighlight %}
+
+{% highlight html %}
+상수
+
+
+{% endhighlight %}
+
+{% highlight html %}
+상수
+
+
+{% endhighlight %}
+
+{% highlight html %}
+상수
+
+
+{% endhighlight %}
+
+{% highlight html %}
+상수
+
+
+{% endhighlight %}
+
+{% highlight html %}
+상수
 
 
 {% endhighlight %}
