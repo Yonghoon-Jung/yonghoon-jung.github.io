@@ -37,23 +37,39 @@ This is a posting that summarizes the basic grammar of the Swift language to fac
 
 ## Grammer
 
-You can try the evidence!
+Swift 문법!
 
 <span class="grammer">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
 
 {% highlight html %}
 - 데이터 타입 -
-var myNumber = 10 <br>
-// myNumber라는 이름의 변수를 생성했으며, 숫자 10을 할당합니다. <br>
-var myNumber: Int = 10 <br>
-// 위와 같이 초깃값이 존재하는 경우 컴파일러가 추론하므로 데이터 타입을 명시할 필요 없습니다. <br>
-종류 : Bool, Character, Int, Double, String, Void <br>
-※ 주의 x= 10 // 오류! '='옆에는 공백이 있어야합니다. <br><br>
+var myNumber = 10 
+// myNumber라는 이름의 변수를 생성했으며, 숫자 10을 할당합니다.
+var myNumber: Int = 10 
+// 위와 같이 초깃값이 존재하는 경우 컴파일러가 추론하므로 데이터 타입을 명시할 필요 없습니다.
+종류 : Bool, Character, Int, Double, String, Void
+※ 주의 x= 10 // 오류! '='옆에는 공백이 있어야합니다.
 
-일반적으로 초깃값을 주지 않을 경우에만 자료형을 씁니다. <br>
+일반적으로 초깃값을 주지 않을 경우에만 자료형을 씁니다.
 let meaningOfLife = 42  // Int형으로 타입 추론됩니다.
 let pi = 3.141592       // Double형으로 추론됩니다.
 let anotherPi = 3 + 0.14159 // Double형으로 추론됩니다.
+
+정수 데이터 타입 : Int
+- 정수(수점이 없는 수)를 저장하는 데 사용
+  └ 양수, 음수, 영(0) 값을 담을 수 있는 부호있는(signed) 정수
+  └ 영(0)과 양수만 담을 수 있는 부호 없는(unsigned) 정수
+- 8비트, 16비트, 32비트, 64비트 정수를 지원
+  └ Int8, Int16, Int32, Int64 타입
+- 부호없는 정수
+  └ UInt8, UInt16, UInt32, UInt64 타입
+- 애플은 특정 크기의 데이터 타입보다 Int 데이터 타입을 권장
+  └ Int 데이터 타입은 해당 코드가 실행되는 플랫폼에 맞는 정수 크기를 사용
+  └ var myAge : Int = 20 // 초깃값 20이 있으므로 : Int는 일반적으로 생략함
+- 32비트 부호있는 정수 데이터 타입에 대한 최솟값과 최댓값을 출력
+- \(출력하고 싶은 변수 또는 상수)
+  └ print("Int32 Min = \(Int32.min) Int32 Max = \(Int32.max)")
+  └ Int32 Min = -2147483648 Int32 Max = 2147483647
 {% endhighlight %}
 
 ---
