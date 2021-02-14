@@ -45,6 +45,11 @@ This is a posting that summarizes the basic grammar of the Swift language to fac
 - [Character](#character) 문자 데이터 타입
 - [String](#string) 문자열 데이터 타입
 - [EscapeSequence](#escapesequence) 특수 문자 / 이스케이프 시스
+- [Var](#var) 변수
+- [Let](#let) 상수
+- [Var-Let](#var-let) 변수 및 상수 선언
+- [Tuple](#tuple) 튜플
+- [Optional](#optional) 옵셔널
 
 #### Swift
 
@@ -130,20 +135,14 @@ let anotherPi = 3 + 0.14159 // Double형으로 추론됩니다.
  - 저장, 검색, 비교, 문자열 연결, 수정 등의 기능을 포함합니다.
  - 문자열 보간(string interpolation)을 사용하여 문자열과 변수, 상수, 표현식, 함수 호출의 조합으로 만들 수도 있습니다.
    └ var userName : String = "John" // : String 생략하는 것이 일반적임
-   └ var inboxCount = 25
-   └ let maxCount = 100
-   └ var message = "\(userName) has \(inboxCount) message. Message capacity remaining is \(maxCount - inboxCount)"
-   └ print(message)
-   └ RESULT - John has 25 message. Message capacity remaining is 75
+     var inboxCount = 25
+     let maxCount = 100
+     var message = "\(userName) has \(inboxCount) message. Message capacity remaining is \(maxCount - inboxCount)"
+     print(message)
+     RESULT - John has 25 message. Message capacity remaining is 75
 {% endhighlight %}
 
 #### EscapeSequence
-{% highlight html %}
-특수 문자 / 이스케이프 
-
-
-{% endhighlight %}
-
 {% highlight html %}
 특수 문자 / 이스케이프 
 - 표준 문자 트뿐만 아니라 문자열에 개행, 탭, 또는 유니코드 값과 같은 항목을 지정할 수 있는 여러 특수 문자도 있습니다.
@@ -165,7 +164,7 @@ let anotherPi = 3 + 0.14159 // Double형으로 추론됩니다.
 └ \U{nnnnnnnn} ― nnnnnnnn 위치에 유니코드 문자를 표현하는 네 개의 16진수가 배치되는 4바이트 유니코드 스칼라
 {% endhighlight %}
 
-#### var
+#### Var
 {% highlight html %}
 변수
 - 기본적으로 변수(variable)는 프로그램에서 사용될 데이터를 저장하기 위한 메모리 공간
@@ -174,30 +173,76 @@ let anotherPi = 3 + 0.14159 // Double형으로 추론됩니다.
   └ var x = 0.0, y = 0.0, z = 0.0
 {% endhighlight %}
 
-#### let
+#### Let
 {% highlight html %}
 상수
-
-
+- 상수(constant)는 데이터 값을 저장하기 위하여 메모리 내의 명명된 공간을 제공한다는 점에서 변수와 비슷합니다.
+- 어떤 값이 한번 할당되면 이후에 변경될 수 없습니다.
+- 상수는 코드 내에서 반복적으로 사용되는 값이 있을 경우에 유용합니다.
+- 코드 내에서 반복적으로 사용되는 특정 값을 매번 사용하는 것보다, 그 값을 상수에 할당한 다음 코드 내에서 참조하면 코드 읽기가 더 쉬워집니다.
+  └ let maximumNumber = 10
+  └ let π = 3.14159
+  └ let �� = "dogcow" // \[Edit]-\[Emoji & Symbols]
+- 변수나 상수명은 영문자, 숫자, Unicode(이모티콘, 중국어, 한글….)도 가능합니다.
 {% endhighlight %}
 
+#### Var-Let
 {% highlight html %}
-상수
-
-
+상수와 변수 선언하기
+- 변수는 var 키워드를 이용하여 선언되며, 변수를 생성할 때에 값을 가지고 초기화할 수도 있습니다.
+  └ var userCount = 10
+  └ var userCount : Int?
+- 상수는 let 키워드를 사용하여 선언합니다.
+  └ 선언하는 시점에서 상수에 값이 할당되어 초기화되고, 할당된 값을 수정할 수 없음
+  └ let maxUserCount = 20
+- 애플은 코드의 효율성과 실행 성능을 높이기 위해서 변수(var)보다는 상수(let)를 사용하라고 권장합니다.
 {% endhighlight %}
 
+#### Tuple
 {% highlight html %}
-상수
-
-
+튜플
+- 튜플은 스위프트 프로그래밍 언어에서 가장 강력한 기능 중 하나입니다.
+- 여러 값을 하나의 개체에 일시적으로 묶는 방법입니다.
+- 튜플에 저장되는 항목들은 어떠한 타입도 될 수 있으며, 저장된 값들이 모두 동일한 타입이어야 한다는 제약도 없습니다.
+- let myTuple = (10, 12.1, "Hi")
+- 튜플의 요소들은 여러 다른 방법들을 사용하여 접근할 수 있습니다.
+- 특정 튜플 값은 인덱스 위치를 참조하면 간단하게 접근합니다.
+  └ 맨 첫 번째 값은 인덱스 0
+- 인덱스 2 위치를 추출하고 그 값을 새로운 문자열 변수에 할당합니다.
+  └ let myTuple = (10, 12.1, "Hi")
+    var myString = myTuple.2
+    print(myString) //출력되는 값은? HI
+- 단 한 줄의 코드로 튜플의 모든 값을 추출하여 변수 또는 상수에 할당합니다.
+  └ let myTuple = (10, 12.1, "Hi")
+  └ let (myInt, myFloat, myString) = myTuple
+- 튜플의 값을 선택적으로 추출하는 데 사용될 수 있으며, 무시하고 싶은 값에 밑줄을 사용하면 그 값은 무시합니다.
+  └ var (myInt, \_, myString) = myTuple // 부동 소수점 수는 무시
+- 튜플을 생성할 때 각 값에 이름을 할당할 수도 있습니다.
+  └ let myTuple = (count: 10, length: 12.1, message: "Hi")
+- 튜플에 저장된 값에 할당된 이름은 각 값을 참조하는 데 사용합니다.
+- myTuple 인스턴스의 message 값을 출력하는 코드입니다.
+  └ print(myTuple.message) //?
+- 튜플의 가장 강력한 점은 함수에서 여러 값들을 한 번에 반환하는 것입니다.
 {% endhighlight %}
 
+#### Optional
 {% highlight html %}
-상수
-
-
+옵셔널 타입
+- 옵셔널(optional) 데이터 타입은 다른 프로그래밍 언어에는 없는 새로운 개념입니다.
+- 값을 반환할 때 오류가 발생할 가능성이 있는 값은 옵셔널 타입이라는 객체로 감싸서 반환합니다.
+  └ Int("100") 은 100이 아닌 Optional(100)을 리턴함,print(Int("100")), Int형 initializer
+  └ Int("Hi") 은 정수 값을 반환할 수 없음, 아무런 값도 반환할 수 없다는 의미로 nil을 반환
+  └ Swift에서 기본 자료형(Int, Double, String 등)은 nil값을 저장할 수 없음
+  └ nil도 저장하려면 옵셔널 타입으로 선언해야 함
+- 옵셔널 타입은 변수 또는 상수에 아무런 값이 할당되지 않는 상황을 안전하게 처리하기 위한 방법을 제공합니다.
+- 옵셔널 타입 변수를 선언하기 위해서는 타입 선언부 뒤에 “?” 문자를 사용합니다.
+  └ 주의 : 변수명 뒤에 “?”하는 것 아님
+- index라는 이름의 옵셔널 Int 변수를 선언합니다.
+  └ var index: Int?
+  └ index 변수는 정수 값을 갖거나 아무 값도 갖지 않을 수 있음(nil)
 {% endhighlight %}
+
+
 
 {% highlight html %}
 상수
