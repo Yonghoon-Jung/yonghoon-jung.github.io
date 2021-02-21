@@ -1,5 +1,5 @@
 ---
-title: "단체사진 촬영"
+title: "인덕대학교 36대 대의원회 신애인화(信愛忍和)"
 layout: post
 date: 2021-02-16 21:04
 image: /assets/images/markdown.jpg
@@ -29,7 +29,8 @@ description: Markdown summary with different options
 
 ## A-Conference-Room
 
-You can try the evidence!
+인덕대학교 은봉관 대회의실에서 회의진행 전에 사진 촬영! <br>
+긍정적으로 참여해준 대의원분들에게 감사합니다.
 
 
 <div class="side-by-side">
@@ -39,13 +40,15 @@ You can try the evidence!
     </div>
 
     <div class="toright">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p> 우리는 하나다! 인덕대학교 36대 대의원회 신애인화(信愛忍和)입니다! 자치단체 공동대표로서 학우들을 위해 힘쓰겠습니다!</p>
     </div>
 </div>
 
 ---
 
 ## A-Recreation-Ground
+
+인덕대학교 운동장 자연광이 예쁠 때 사진하나 찍었어요~ 다들 예쁘게 잘 나왔네요!
 
 <div class="side-by-side">
     <div class="toleft">
@@ -54,7 +57,12 @@ You can try the evidence!
     </div>
 
     <div class="toright">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>우리 36대 대의원회 신애인화(信愛忍和)는 의장단을 필두로 4개의 부서로 나뉩니다.
+        행정 업무의 총괄 관리부, 
+        행사 또는 사업 총괄 기획부, 
+        대의원회 홍보 총괄 홍보부, 
+        전문적인 감사 부서 집행부
+        누구보다 노력하는 36대 대의원회 신애인화(信愛忍和)가 되겠습니다!</p>
     </div>
 </div>
 
