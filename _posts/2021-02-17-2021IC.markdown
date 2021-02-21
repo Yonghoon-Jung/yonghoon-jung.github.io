@@ -84,7 +84,7 @@ Markdown can also contain images. I'll need to add something here sometime.
 ![Markdowm Image][https://yonghoon-jung.github.io/assets/images/2021IC.jpg]
 {% endhighlight %}
 
-![Markdowm Image][5]
+![Markdowm Image][http://yonghoon-jung.github.io/assets/images/2021IC.jpg]
 
 *Figure Caption*?
 
