@@ -6,7 +6,7 @@ image: /assets/images/2021IC-MARK.png
 headerImage: true
 tag:
 - 인덕대학교
-- 2021년 정보통과
+- 2021년 정보통신공학과
 - 학생회
 star: false
 category: blog
