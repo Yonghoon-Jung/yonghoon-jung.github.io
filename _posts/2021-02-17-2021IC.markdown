@@ -78,6 +78,11 @@ There are six levels of headings. They correspond with the six levels of HTML he
 
 ## Images
 
+<div class="side-by-side">
+    <img class="image" src="https://yonghoon-jung.github.io/assets/images/2021IC.jpg" alt="Alt Text">
+    <figcaption class="caption">Photo by 인덕대학교 정보통신공학과 2021년 학생회</figcaption>
+</div>
+
 Markdown can also contain images. I'll need to add something here sometime.
 
 {% highlight raw %}
