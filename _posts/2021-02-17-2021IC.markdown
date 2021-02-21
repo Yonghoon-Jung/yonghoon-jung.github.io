@@ -7,7 +7,7 @@ headerImage: false
 tag:
 - 2021년 정통과
 - 학생
-star: true
+star: false
 category: blog
 author: Yonghoon Jung
 description: Markdown summary with different options
