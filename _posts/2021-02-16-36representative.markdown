@@ -16,7 +16,7 @@ description: Markdown summary with different options
 저는 36대 대의원회 신애인화(信愛忍和)의 의장을 맡아 활동하고 있습니다.<br>
 첫 단체사진 촬영인만큼 추억으로 남기고 싶어 게시합니다:)
 
-#### Especial Elements
+#### List
 - [A-Conference-Room](#a-conference-room)
 - [A-Recreation-Ground](#a-recreation-ground)
 - [Management-Department](#management-department)
