@@ -1,11 +1,12 @@
 ---
-title: "인덕대학교 정보통신공학과 2021년 학생회"
+title: "2021년 인덕대학교 정보통신공학과 학생회"
 layout: post
 date: 2021-02-17 21:00
 image: /assets/images/2021IC-MARK.png
 headerImage: true
 tag:
-- 2021년 정통과
+- 인덕대학교
+- 2021년 정보통과
 - 학생회
 star: false
 category: blog
@@ -13,7 +14,7 @@ author: Yonghoon Jung
 description: Markdown summary with different options
 ---
 
-# 2021년 인덕대학교 정보통신공학과 학생회
+## 2021년 인덕대학교 정보통신공학과 학생회
 
  저는 인덕대학교 정보통신공학과 17학번으로 20년에 복학하여 현재 대의원 직을 맡아 대의원회 <b>의장</b>으로 활동하고 있습니다. <br>
  2021년 학회장을 비롯해 학과 대표로서 학과 학생들의 복지와 만족도를 최대로 높여 IT 기술 인재 양성에 힘쓰도록 노력하겠습니다! <br>
