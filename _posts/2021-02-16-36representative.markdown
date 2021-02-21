@@ -119,19 +119,8 @@ You can add a especial *hr* to your text.
 
 ## Videos
 
-Do you want some videos? Youtube, Vimeo or Vevo? Copy the embed code and paste on your post!
+36대 대의원회 신애인화(信愛忍和) 소개 영상입니다.
 
 **Example**
 
-{% highlight html %}
-<iframe width="560" height="310" src="https://www.youtube.com/embed/r7XhWUDj-Ts" frameborder="0" allowfullscreen></iframe>
-{% endhighlight %}
-
 <iframe width="560" height="310" src="https://youtu.be/wRfyvadl6Ro" frameborder="0" allowfullscreen></iframe>
-
-[1]: https://daringfireball.net/projects/markdown/
-[2]: https://www.fileformat.info/info/unicode/char/2163/index.htm
-[3]: https://www.markitdown.net/
-[4]: https://daringfireball.net/projects/markdown/basics
-[5]: https://daringfireball.net/projects/markdown/syntax
-[6]: https://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg
