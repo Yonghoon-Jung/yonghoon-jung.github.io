@@ -6,77 +6,22 @@ image: /assets/images/markdown.jpg
 headerImage: false
 tag:
 - 2021년 정통과
-- 학생
+- 학생회
 star: false
 category: blog
 author: Yonghoon Jung
 description: Markdown summary with different options
 ---
 
-## Basic formatting
+# 2021년 인덕대학교 정보통신공학과 학생회
 
-This note **demonstrates** some of what [Markdown][1] is *capable of doing*.
+저는 인덕대학교 정보통신공학과 대의원을 맡고 있습니다. <br>
+2021년 학회장을 비롯해 학과 대표로서 학과 학생들의 복지와 만족도를 최대로 높여 인재 양성에 힘쓰도록 노력하겠습니다!
 
-And that's how to do it.
-
-{% highlight html %}
-This note **demonstrates** some of what [Markdown][some/link] is *capable of doing*.
-{% endhighlight %}
 
 ---
 
-## Headings
-
-There are six levels of headings. They correspond with the six levels of HTML headings. You've probably noticed them already in the page. Each level down uses one more hash character. But we are using just 4 of them.
-
-# Headings can be small
-
-## Headings can be small
-
-### Headings can be small
-
-#### Headings can be small
-
-{% highlight raw %}
-# Heading
-## Heading
-### Heading
-#### Heading
-{% endhighlight %}
-
----
-
-## Lists
-
-### Ordered list
-
-1. Item 1
-2. A second item
-3. Number 3
-
-{% highlight raw %}
-1. Item 1
-2. A second item
-3. Number 3
-{% endhighlight %}
-
-### Unordered list
-
-* An item
-* Another item
-* Yet another item
-* And there's more...
-
-{% highlight raw %}
-* An item
-* Another item
-* Yet another item
-* And there's more...
-{% endhighlight %}
-
----
-
-## 2021년 인덕대학교 정보통신공학과 학생회 파이팅!
+## 정통과 학생회 파이팅!
 
 <div class="side-by-side">
     <img class="image" src="https://yonghoon-jung.github.io/assets/images/2021IC.jpg" alt="Alt Text">
