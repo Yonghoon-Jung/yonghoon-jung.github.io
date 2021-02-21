@@ -12,20 +12,20 @@ description: Markdown summary with different options
 
 ## Summary:
 
-21년 인덕대학교 36대 대의원회 단체 사진입니다.
-저는 36대 대의원회 신애인화(信愛忍和)의 의장을 맡아 활동하고 있습니다.
-첫 단체사진 촬영인만큼 추억으로 남기고 싶어 게시하게 됐네요:)
+21년 인덕대학교 36대 대의원회 단체 사진입니다.<br>
+저는 36대 대의원회 신애인화(信愛忍和)의 의장을 맡아 활동하고 있습니다.<br>
+첫 단체사진 촬영인만큼 추억으로 남기고 싶어 게시합니다:)
 
 #### Especial Elements
-- [Evidence](#evidence)
-- [Side-by-Side](#side-by-side)
+- [A-Conference-Room](#a-conference-room)
+- [A-Recreation-Ground](#a-recreation-ground)
 - [Star](#star)
 - [Especial Breaker](#especial-breaker)
 - [Spoiler](#spoiler)
 
 ---
 
-## Evidence
+## A-Conference-Room
 
 You can try the evidence!
 
@@ -37,7 +37,7 @@ You can try the evidence!
 
 ---
 
-## Side-by-side
+## A-Recreation-Ground
 
 Like the [Medium](https://medium.com/) component.
 
