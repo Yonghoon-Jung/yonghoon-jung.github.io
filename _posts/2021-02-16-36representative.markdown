@@ -53,7 +53,7 @@ description: Markdown summary with different options
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="https://yonghoon-jung.github.io/assets/images/A-Recreation-Ground.JPG" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
+        <figcaption class="caption">Photo by 36대 대의원회 신애인화(信愛忍和)</figcaption>
     </div>
 
     <div class="toright">
@@ -74,7 +74,7 @@ description: Markdown summary with different options
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="https://yonghoon-jung.github.io/assets/images/Management-Department.JPG" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
+        <figcaption class="caption">Photo by 관리부 만사형통(萬事亨通)</figcaption>
     </div>
 
     <div class="toright">
@@ -90,7 +90,7 @@ description: Markdown summary with different options
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="https://yonghoon-jung.github.io/assets/images/Planning-Department.JPG" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
+        <figcaption class="caption">Photo by 기획부 백절불굴(百折不屈)</figcaption>
     </div>
 
     <div class="toright">
@@ -105,7 +105,7 @@ description: Markdown summary with different options
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="https://yonghoon-jung.github.io/assets/images/A-Publicity-Department.JPG" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
+        <figcaption class="caption">Photo by 홍보부 세한송백(歲寒松柏)</figcaption>
     </div>
 
     <div class="toright">
@@ -120,7 +120,7 @@ description: Markdown summary with different options
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="https://yonghoon-jung.github.io/assets/images/Execution-Department.JPG" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
+        <figcaption class="caption">Photo by 집행부 이법종사(以法從事)</figcaption>
     </div>
 
     <div class="toright">
