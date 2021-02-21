@@ -52,6 +52,9 @@ This is a posting that summarizes the basic grammar of the Swift language to fac
 - [Optional-Binding](#optional-binding) 옵셔널 바인딩
 - [Optional-Reason-For-Use](#optional-reason-for-use) 옵셔널 사용 이유
 - [Nil](#nil) nil값
+- [Upcasting-Downcasting](#upcasting-downcasting) 형 변환 업캐스팅, 다운캐스팅
+- [Is](#is) 타입 검사(is)
+- [Any-AnyObject](#any-anyObject) Any-AnyObject
 
 #### Swift
 
@@ -393,25 +396,76 @@ nil
   // surveyAnswer is automatically set to nil
 {% endhighlight %}
 
-####
+#### Upcasting-Downcasting
 {% highlight html %}
-상수
+Upcasting
+- 상속 관계가 있는 클래스들끼리만 타입 캐스팅 가능합니다.
+- 자식(부모로부터 상속받아 더 많은 것을 가지고 있습니다.)을 부모로 캐스팅하는 것은 문제가 없습니다.
+- as 연산자를 이용한 타입 변환(type casting)
+  └ 자식인스턴스 as 부모클래스 // upcasting 안전한 캐스팅. 자식이 추상화됨
+  └ 업캐스팅은 객체를 부모 클래스의 객체로 형 변환
+  └ 형 변환은 성공할 것이기 때문에 보장된 변환(guaranteed conversion)
+  └ UIButton은 UIControl의 자식 클래스이므로 안전하게 형 변환
+  └ let myButton: UIButton = UIButton()
+  └ let myControl = myButton as UIControl //자식인스턴스 as 부모 클래스
+  └ 자식인스턴스인 myButton을 부모 클래스형으로 형 변환
 
+Downcasting
+- 다운캐스팅은 어떤 클래스에서 다른 클래스로 변환할 때 안전한 변환을 보장할 수 없습니다.
+- 다운캐스팅에서 유효하지 않은 형 변환이 이뤄졌는데 컴파일러가 에러를 잡지 않았다면, 런타임에서 에러가 발생합니다.
+- 다운캐스팅은 주로 자식 클래스로 변환하는 데 사용합니다.
+- 성공 확신이 있으면 as! 키워드를 사용하며 강제 변환(forced conversion)합니다.
+  └ 변환이 안되면 crash
+- 성공 확신이 없으면 as?를 사용하여 안전하게 변환합니다.
+  └ 변환이 안되면 nil을 리턴하므로 옵셔널 타입으로 반환함
+- 부모인스턴스 as! 자식클래스 // downcasting 일반 타입으로 반환.
+  // 다운캐스팅이 반드시 성공할 것이라는 확신이 있을 때
+- 부모인스턴스 as? 자식클래스 // downcasting 옵셔널 타입으로 반환. 확신이 없을 경우
 
+- UIScrollView 객체를 UITextView 클래스로 변환하기 위해서는 다운캐스팅 작업이 필요합니다.
+- 다음 코드는 UIScrollView 객체를 UITextView로 다운캐스팅하기 위해서 보장된 변환인 업캐스팅 방법을 사용하고 있습니다.
+  └ let myScrollView: UIScrollView = UIScrollView() //부모 인스턴스
+  └ let myTextView = myScrollView as UITextView //부모 인스턴스 as 자식클래스
+- 이 코드를 컴파일하면 다음과 같은 에러가 발생할 것입니다.
+  └ ＇UIScrollView＇ is not convertible to ＇UITextView＇
+  └ UIScrollView 인스턴스를 UITextView 인스턴스로 변환하는 것을 안전하게 할 수 없다.
+- 다운캐스팅 변환은 반드시 as!를 사용해야 합니다.
+- let myTextView = myScrollView as! UITextView //부모인스턴스 as! 자식클래스
+- 다운캐스팅을 하는 또 다른 방법은 as?를 이용하여 옵셔널 바인딩을 하는 것입니다.
+- 만약에 변환이 성공적으로 수행된다면 지정된 타입의 옵셔널 값이 반환될 것이며, 실패했다면 옵셔널 값은 nil이 됩니다.
+- 예시
+  if let classB = classA as? UITextView {
+  print(＂Type cast to UITextView succeeded＂)
+  } else {
+  print(＂Type cast to UITextView failed＂)
+  }
 {% endhighlight %}
 
-####
+#### Is
 {% highlight html %}
-상수
-
-
+타입검사(is)
+- is 키워드를 이용하여 값의 타입 검사(type check)
+  └ 지정된 객체가 MyClass라는 이름의 클래스의 인스턴스인지 검사
+  └ 인스턴스가 해당 클래스인가?
+    └ 인스턴스 is 클래스
+  └ if myobject is MyClass {
+      // myobject는 MyClass의 인스턴스이다
+    }
 {% endhighlight %}
 
-####
+#### Any-AnyObject
 {% highlight html %}
-상수
+AnyObject
+- AnyObject can represent an instance of any class type.
+- 범용 타입
+- 상속관계가 아니라도 타입 캐스팅 가능한 타입입니다.
+- 어떤 클래스의 객체도 저장 가능합니다.
+- 가장 추상화된 최상위 클래스(Obj-C의 NSObject)
+- 클래스만 허용하며 구조체나 열거형은 허용하지 않습니다.
 
-
+Any
+- Any can represent an instance of any type at all, including function types.
+- 클래스, 구조체, 열거형, 함수타입도 가능합니다.
 {% endhighlight %}
 
 ####
