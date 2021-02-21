@@ -76,38 +76,13 @@ There are six levels of headings. They correspond with the six levels of HTML he
 
 ---
 
-## Images
+## 2021년 인덕대학교 정보통신공학과 학생회 파이팅!
 
 <div class="side-by-side">
     <img class="image" src="https://yonghoon-jung.github.io/assets/images/2021IC.jpg" alt="Alt Text">
-    <figcaption class="caption">Photo by 인덕대학교 정보통신공학과 2021년 학생회</figcaption>
+    <figcaption class="caption">Photo by 2021년 인덕대학교 정보통신공학과 학생회</figcaption>
 </div>
 
-Markdown can also contain images. I'll need to add something here sometime.
-
-{% highlight raw %}
-![Markdowm Image][https://yonghoon-jung.github.io/assets/images/2021IC.jpg]
-{% endhighlight %}
-
-![Markdowm Image][http://yonghoon-jung.github.io/assets/images/2021IC.jpg]
-
-*Figure Caption*?
-
-{% highlight raw %}
-![Markdowm Image][/image/url]
-<figcaption class="caption">Photo by John Doe</figcaption>
-{% endhighlight %}
-
-![Markdowm Image][5]
-<figcaption class="caption">Photo by John Doe</figcaption>
-
-*Bigger Images*?
-
-{% highlight raw %}
-![Markdowm Image][/image/url]{: class="bigger-image" }
-{% endhighlight %}
-
-![Markdowm Image][5]{: class="bigger-image" }
 
 ---
 
