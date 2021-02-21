@@ -2,7 +2,7 @@
 title: "인덕대학교 정보통신공학과 2021년 학생회"
 layout: post
 date: 2021-02-17 21:00
-image: /assets/images/2021IC.jpg
+image: /assets/images/2021IC-MARK.png
 headerImage: true
 tag:
 - 2021년 정통과
@@ -16,7 +16,8 @@ description: Markdown summary with different options
 # 2021년 인덕대학교 정보통신공학과 학생회
 
 저는 인덕대학교 정보통신공학과 대의원을 맡고 있습니다. <br>
-2021년 학회장을 비롯해 학과 대표로서 학과 학생들의 복지와 만족도를 최대로 높여 IT 기술 인재 양성에 힘쓰도록 노력하겠습니다!
+2021년 학회장을 비롯해 학과 대표로서 학과 학생들의 복지와 만족도를 최대로 높여 IT 기술 인재 양성에 힘쓰도록 노력하겠습니다! <br>
+새로운 한 해를 맞이하면서 새로운 신입생 및 재학생들을 도와 학과 발전 및 대한민국 IT 강국을 위해 나아가는 최고의 정보통신공학과가 되도록 파이팅!
 
 
 ---
