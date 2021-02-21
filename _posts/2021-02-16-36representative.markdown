@@ -19,9 +19,11 @@ description: Markdown summary with different options
 #### Especial Elements
 - [A-Conference-Room](#a-conference-room)
 - [A-Recreation-Ground](#a-recreation-ground)
-- [Star](#star)
-- [Especial Breaker](#especial-breaker)
-- [Spoiler](#spoiler)
+- [Management-Department](#danagement-department)
+- [Planning-Department](#planning-department)
+- [A-Publicity-Department](#a-publicity-department)
+- [Execution-Department](#execution-department)
+- [Introduction-Video](#introduction-video)
 
 ---
 
@@ -95,7 +97,7 @@ Like the [Medium](https://medium.com/) component.
 
 ---
 
-## Star
+## Management-Department
 
 You can give evidence to a post. Just add the tag to the markdown file.
 
@@ -105,7 +107,7 @@ star: true
 
 ---
 
-## Especial Breaker
+## Planning Department
 
 You can add a especial *hr* to your text.
 
@@ -117,7 +119,31 @@ You can add a especial *hr* to your text.
 
 ---
 
-## Videos
+## A-Publicity-Department
+
+You can add a especial *hr* to your text.
+
+{% highlight html %}
+<div class="breaker"></div>
+{% endhighlight %}
+
+<div class="breaker"></div>
+
+---
+
+## Execution-Department
+
+You can add a especial *hr* to your text.
+
+{% highlight html %}
+<div class="breaker"></div>
+{% endhighlight %}
+
+<div class="breaker"></div>
+
+---
+
+## Introduction-Video
 
 36대 대의원회 신애인화(信愛忍和) 소개 영상입니다.
 
