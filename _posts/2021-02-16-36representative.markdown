@@ -1,5 +1,5 @@
 ---
-title: "인덕대학교 36대 대의원회 신애인화(信愛忍和)"
+title: "2021년 인덕대학교 36대 대의원회 신애인화(信愛忍和)"
 layout: post
 date: 2021-02-16 21:04
 image: /assets/images/markdown.jpg
