@@ -1,5 +1,5 @@
 ---
-title: "마크다운 사용 양식"
+title: "마크다운 사용 양식2"
 layout: post
 date: 2021-02-14 18:04
 image: /assets/images/markdown.jpg
