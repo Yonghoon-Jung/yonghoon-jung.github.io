@@ -80,7 +80,17 @@ description: Markdown summary with different options
     </div>
 
     <div class="toright">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>36대 대의원회 신애인화(信愛忍和) 관리부입니다.<br>
+        관리부의 슬로건으로는 만사형통(萬事亨通)<br>
+        즉, 모든 일이 뜻한 바대로 잘 이루어졌으면 하는 바람입니다.<br>
+        하는 일로, <br>
+        * 대의원회 내 예산 장부 기록 및 관리<br>
+        * 대의원회 내 회칙 관리<br>
+        * 학생경비 관련 업무<br>
+        * 대의원회 총 일정 관리 및 팀워크 증진<br>
+        * 행사 및 사업시 상주표 제작<br>
+        등이 있습니다!
+        </p>
     </div>
 </div>
 
@@ -96,7 +106,17 @@ description: Markdown summary with different options
     </div>
 
     <div class="toright">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>36대 대의원회 신애인화(信愛忍和) 기획부입니다.<br>
+        기획부의 슬로건으로는 백절불굴(百折不屈)<br>
+        즉, 백 번 꺾여도 굴하지 않는다는 뜻으로 기획에 있어 어떤 어려움에도 굽히지 않는다는 의미입니다.<br>
+        하는 일로,<br>
+        * 대의원회 복지사업 주관 및 기획<br>
+        * 사업 유지 및 보수 설계<br>
+        * 복지사업에 관한 사업 예산 수립<br>
+        * 자치단체 행사 및 사업 관련 설문조사<br>
+        * 사물함 대여, 강의실 대여 사업 주관<br>
+        등이 있습니다!
+        </p>
     </div>
 </div>
 
@@ -111,7 +131,16 @@ description: Markdown summary with different options
     </div>
 
     <div class="toright">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>36대 대의원회 신애인화(信愛忍和) 홍보부입니다.<br>
+        홍보부의 슬로건으로는 세한송백(歲寒松柏)<br>
+        즉, 추운 시절의 소나무와 잣나무. 즉 어지러운 시대에도 변치 않는 홍보부의 굳은 지조와 절개를 의미합니다.<br>
+        하는 일로,<br>
+        * 대의원회 전체적인 디자인 업무<br>
+        * 행사 및 사업에서 필요한 홍보물 제작<br>
+        * 대의원회 페이스북, 카카오톡 플러스친구 관리<br>
+        * 선거관리위원회 총괄<br>
+        등이 있습니다!
+        </p>
     </div>
 </div>
 
@@ -126,7 +155,15 @@ description: Markdown summary with different options
     </div>
 
     <div class="toright">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>36대 대의원회 신애인화(信愛忍和) 집행부입니다.<br>
+        집행부의 슬로건으로는 이법종사(以法從事)<br>
+        즉, 법대로 일을 하여감으로서 감사의 차질이 생기지 않도록 존재하는 전문적인 감사 부서입니다.<br>
+        하는 일로,<br>
+        * 감사 진행 결과 작성 및 관리<br>
+        * 대의원회를 서브해 원활한 감사가 이루어 지도록 도움<br>
+        * 전반적인 감사에 대한 전문적인 지식<br>
+        등이 있습니다!
+        </p>
     </div>
 </div>
 
