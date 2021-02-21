@@ -9,10 +9,12 @@ category: blog
 author: Yonghoon Jung
 description: Markdown summary with different options
 ---
----
+
 ## Summary:
 
-You can pick as item to see how to apply in markdown.
+21년 인덕대학교 36대 대의원회 단체 사진입니다.
+저는 36대 대의원회 신애인화(信愛忍和)의 의장을 맡아 활동하고 있습니다.
+첫 단체사진 촬영인만큼 추억으로 남기고 싶어 게시하게 됐네요:)
 
 #### Especial Elements
 - [Evidence](#evidence)
