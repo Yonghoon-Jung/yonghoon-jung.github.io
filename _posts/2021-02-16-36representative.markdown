@@ -46,8 +46,8 @@ You can try the evidence!
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
+        <img class="image" src="https://yonghoon-jung.github.io/assets/images/A-Conference-Room.JPG" alt="Alt Text">
+        <figcaption class="caption">Photo by 36대 대의원회 신애인화(信愛忍和)</figcaption>
     </div>
 
     <div class="toright">
