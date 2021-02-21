@@ -1,7 +1,7 @@
 ---
 title: "마크다운 사용 양식2"
 layout: post
-date: 2021-02-15 18:00
+date: 2021-02-10 18:00
 image: /assets/images/markdown.jpg
 headerImage: false
 tag: null
