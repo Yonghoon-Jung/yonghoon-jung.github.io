@@ -48,6 +48,10 @@ This is a posting that summarizes the basic grammar of the Swift language to fac
 - [Var-Let](#var-let) 변수 및 상수 선언
 - [Tuple](#tuple) 튜플
 - [Optional](#optional) 옵셔널
+- [Optional-Forced-Unwrapping](#optional-forced-unwrapping) 옵셔널 타입 강제 언래핑
+- [Optional-Binding](#optional-binding) 옵셔널 바인딩
+- [Optional-Reason-For-Use](#optional-reason-for-use) 옵셔널 사용 이유
+- [Nil](#nil) nil값
 
 #### Swift
 
