@@ -34,7 +34,7 @@ You can try the evidence!
 {% highlight html %}
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
+        <img class="image" src="https://yonghoon-jung.github.io/assets/images/A-Conference-Room.JPG" alt="Alt Text">
         <figcaption class="caption">Photo by John Doe</figcaption>
     </div>
 
