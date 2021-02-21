@@ -121,6 +121,6 @@ You can add a especial *hr* to your text.
 
 36대 대의원회 신애인화(信愛忍和) 소개 영상입니다.
 
-**Example**
+**信愛忍和**
 
-<iframe width="560" height="310" src="https://youtu.be/wRfyvadl6Ro" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="310" src="https://www.youtube.com/watch?v=wRfyvadl6Ro" frameborder="0" allowfullscreen></iframe>
