@@ -81,7 +81,7 @@ There are six levels of headings. They correspond with the six levels of HTML he
 Markdown can also contain images. I'll need to add something here sometime.
 
 {% highlight raw %}
-![Markdowm Image][/image/url]
+![Markdowm Image][https://yonghoon-jung.github.io/assets/images/2021IC.jpg]
 {% endhighlight %}
 
 ![Markdowm Image][5]
