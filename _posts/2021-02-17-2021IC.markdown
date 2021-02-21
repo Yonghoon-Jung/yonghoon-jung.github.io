@@ -5,8 +5,8 @@ date: 2021-02-17 21:00
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- markdown
-- elements
+- 2021년 정통과
+- 학생
 star: true
 category: blog
 author: Yonghoon Jung
